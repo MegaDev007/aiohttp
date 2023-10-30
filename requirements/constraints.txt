@@ -83,6 +83,10 @@ idna==3.4
     #   yarl
 imagesize==1.4.1
     # via sphinx
+importlib-metadata==6.8.0
+    # via sphinx
+importlib-resources==6.1.0
+    # via towncrier
 incremental==22.10.0
     # via towncrier
 iniconfig==2.0.0
@@ -112,7 +116,7 @@ packaging==23.1
     #   gunicorn
     #   pytest
     #   sphinx
-pillow==9.5.0
+pillow==10.1.0
     # via
     #   -c requirements/broken-projects.in
     #   blockdiag
@@ -154,6 +158,8 @@ python-dateutil==2.8.2
     # via time-machine
 python-on-whales==0.65.0
     # via -r requirements/test.in
+pytz==2023.3.post1
+    # via babel
 pyyaml==6.0.1
     # via pre-commit
 re-assert==1.1.0
@@ -168,16 +174,17 @@ requests==2.31.0
 setuptools-git==1.2
     # via -r requirements/test.in
 six==1.16.0
-    # via python-dateutil
+    # via
+    #   python-dateutil
+    #   sphinx
 slotscheck==0.17.0
     # via -r requirements/lint.in
 snowballstemmer==2.2.0
     # via sphinx
-sphinx==7.2.6
+sphinx==7.1.2
     # via
     #   -r requirements/doc.in
     #   sphinxcontrib-blockdiag
-    #   sphinxcontrib-serializinghtml
     #   sphinxcontrib-spelling
     #   sphinxcontrib-towncrier
 sphinxcontrib-applehelp==1.0.4
@@ -192,7 +199,7 @@ sphinxcontrib-jsmath==1.0.1
     # via sphinx
 sphinxcontrib-qthelp==1.0.3
     # via sphinx
-sphinxcontrib-serializinghtml==1.1.9
+sphinxcontrib-serializinghtml==1.1.5
     # via sphinx
 sphinxcontrib-spelling==8.0.0 ; platform_system != "Windows"
     # via -r requirements/doc-spelling.in
@@ -247,6 +254,10 @@ wheel==0.41.0
     # via pip-tools
 yarl==1.9.2
     # via -r requirements/runtime-deps.in
+zipp==3.17.0
+    # via
+    #   importlib-metadata
+    #   importlib-resources
 
 # The following packages are considered to be unsafe in a requirements file:
 pip==23.2.1
@@ -256,3 +267,4 @@ setuptools==68.0.0
     #   blockdiag
     #   nodeenv
     #   pip-tools
+    #   sphinx
