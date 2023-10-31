@@ -54,7 +54,7 @@ cryptography==41.0.3
     # via
     #   pyjwt
     #   trustme
-cython==3.0.4
+cython==3.0.5
     # via -r requirements/cython.in
 distlib==0.3.7
     # via virtualenv
@@ -174,9 +174,7 @@ requests==2.31.0
 setuptools-git==1.2
     # via -r requirements/test.in
 six==1.16.0
-    # via
-    #   python-dateutil
-    #   sphinx
+    # via python-dateutil
 slotscheck==0.17.0
     # via -r requirements/lint.in
 snowballstemmer==2.2.0
@@ -267,4 +265,3 @@ setuptools==68.0.0
     #   blockdiag
     #   nodeenv
     #   pip-tools
-    #   sphinx
