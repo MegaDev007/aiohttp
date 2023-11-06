@@ -136,7 +136,9 @@ pydantic==1.10.12
 pygments==2.15.1
     # via sphinx
 pyjwt==2.8.0
-    # via gidgethub
+    # via
+    #   gidgethub
+    #   pyjwt
 pyproject-hooks==1.0.0
     # via build
 pytest==7.4.3
@@ -169,10 +171,8 @@ requests==2.31.0
 setuptools-git==1.2
     # via -r requirements/test.in
 six==1.16.0
-    # via
-    #   python-dateutil
-    #   sphinx
-slotscheck==0.17.0
+    # via python-dateutil
+slotscheck==0.17.1
     # via -r requirements/lint.in
 snowballstemmer==2.2.0
     # via sphinx
@@ -259,4 +259,3 @@ setuptools==68.0.0
     #   blockdiag
     #   nodeenv
     #   pip-tools
-    #   sphinx
