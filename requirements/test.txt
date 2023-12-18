@@ -32,7 +32,7 @@ cryptography==41.0.3
     # via trustme
 exceptiongroup==1.1.2
     # via pytest
-frozenlist==1.4.0
+frozenlist==1.4.1
     # via
     #   -r requirements/runtime-deps.in
     #   aiosignal
