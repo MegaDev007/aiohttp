@@ -24,7 +24,7 @@ blockdiag==3.0.0
     # via sphinxcontrib-blockdiag
 brotli==1.1.0 ; platform_python_implementation == "CPython"
     # via -r requirements/runtime-deps.in
-build==0.10.0
+build==1.0.3
     # via pip-tools
 certifi==2023.7.22
     # via requests
@@ -82,7 +82,9 @@ idna==3.4
 imagesize==1.4.1
     # via sphinx
 importlib-metadata==6.8.0
-    # via sphinx
+    # via
+    #   build
+    #   sphinx
 importlib-resources==6.1.0
     # via towncrier
 incremental==22.10.0
@@ -117,7 +119,7 @@ pillow==10.2.0
     # via
     #   -c requirements/broken-projects.in
     #   blockdiag
-pip-tools==7.3.0
+pip-tools==7.4.0
     # via -r requirements/dev.in
 platformdirs==3.10.0
     # via virtualenv
@@ -140,7 +142,9 @@ pyjwt==2.8.0
     #   gidgethub
     #   pyjwt
 pyproject-hooks==1.0.0
-    # via build
+    # via
+    #   build
+    #   pip-tools
 pytest==8.0.1
     # via
     #   -r requirements/lint.in
