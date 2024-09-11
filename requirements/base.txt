@@ -22,7 +22,7 @@ gunicorn==23.0.0
     # via -r requirements/base.in
 idna==3.4
     # via yarl
-multidict==6.0.5
+multidict==6.1.0
     # via
     #   -r requirements/runtime-deps.in
     #   yarl
@@ -33,7 +33,9 @@ pycares==4.3.0
 pycparser==2.21
     # via cffi
 typing-extensions==4.7.1
-    # via -r requirements/typing-extensions.in
+    # via
+    #   -r requirements/typing-extensions.in
+    #   multidict
 uvloop==0.20.0 ; platform_system != "Windows" and implementation_name == "cpython"
     # via -r requirements/base.in
 yarl==1.11.1
