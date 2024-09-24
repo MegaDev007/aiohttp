@@ -38,5 +38,5 @@ typing-extensions==4.7.1
     #   multidict
 uvloop==0.20.0 ; platform_system != "Windows" and implementation_name == "cpython"
     # via -r requirements/base.in
-yarl==1.11.1
+yarl==1.12.1
     # via -r requirements/runtime-deps.in
