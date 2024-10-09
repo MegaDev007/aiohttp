@@ -28,6 +28,8 @@ multidict==6.1.0
     #   yarl
 packaging==23.1
     # via gunicorn
+propcache==0.2.0
+    # via yarl
 pycares==4.3.0
     # via aiodns
 pycparser==2.21
@@ -38,5 +40,5 @@ typing-extensions==4.7.1
     #   multidict
 uvloop==0.20.0 ; platform_system != "Windows" and implementation_name == "cpython"
     # via -r requirements/base.in
-yarl==1.13.1
+yarl==1.14.0
     # via -r requirements/runtime-deps.in
