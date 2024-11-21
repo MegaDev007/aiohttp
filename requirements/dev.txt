@@ -46,7 +46,6 @@ click==8.1.6
     #   pip-tools
     #   slotscheck
     #   towncrier
-    #   typer
     #   wait-for-it
 coverage==7.6.1
     # via
@@ -162,7 +161,7 @@ pytest-mock==3.14.0
     # via -r requirements/test.in
 python-dateutil==2.8.2
     # via time-machine
-python-on-whales==0.73.0
+python-on-whales==0.74.0
     # via -r requirements/test.in
 pytz==2023.3.post1
     # via babel
@@ -175,7 +174,6 @@ regex==2023.6.3
 requests==2.31.0
     # via
     #   cherry-picker
-    #   python-on-whales
     #   sphinx
 setuptools-git==1.2
     # via -r requirements/test.in
@@ -223,12 +221,8 @@ towncrier==24.8.0
     # via
     #   -r requirements/doc.in
     #   sphinxcontrib-towncrier
-tqdm==4.65.0
-    # via python-on-whales
 trustme==1.1.0 ; platform_machine != "i686"
     # via -r requirements/test.in
-typer==0.9.0
-    # via python-on-whales
 typing-extensions==4.7.1
     # via
     #   -r requirements/typing-extensions.in
@@ -239,7 +233,6 @@ typing-extensions==4.7.1
     #   pydantic
     #   pydantic-core
     #   python-on-whales
-    #   typer
 uritemplate==4.1.1
     # via gidgethub
 urllib3==2.0.4
